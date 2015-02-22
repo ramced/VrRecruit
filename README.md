@@ -27,7 +27,7 @@ Getting started
 3. [Install composer](http://getcomposer.org/doc/00-intro.md) and projects dependencies
 
     ```
-    composer install --dev
+    composer install --dev --no-interaction --prefer-dist
     ```
 4. Create the database and setup the db user permissions (See the [db.ini](blob/master/task-confirmation/application/configs/db.ini)).
     4. DB User: ```vreasy```
